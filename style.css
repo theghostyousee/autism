@@ -102,4 +102,16 @@ body {
     .tilting-image {
         height: 60px; /* Adjust as needed */
     }
+    .bottom p{
+        font-size: 11px;
+    }
 }
+
+.bottom{
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
