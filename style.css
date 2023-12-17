@@ -62,9 +62,9 @@ body {
     transition: background-color 0.3s ease;
 }
 
-#proofButton:hover {
+/* #proofButton:hover {
     background-color: #f47b0189;
-}
+} */
 
 .container {
     display: flex;
@@ -138,7 +138,7 @@ body {
         height: 50%;
         z-index: 99;
     }
-    
+
     .bottom{
         display: flex;
         height: 15%;
