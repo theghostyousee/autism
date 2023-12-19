@@ -13,6 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function tweetIQ() {
-    var text = `I'm burning my identity for @BurnAvax 🔥`;
+    var text = `This is my proof of participation for @PepeOn_INJ 🐸 🥷 `;
     window.open("https://twitter.com/intent/tweet?&text=\n" + text, "_blank");
 }
