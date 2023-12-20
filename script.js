@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     Telegram.addEventListener('click', function() {
-        window.open("https://t.me/BurnAvax", + "_blank")
+        window.open("https://t.me/ZooAvax", + "_blank")
     });
 
 });
