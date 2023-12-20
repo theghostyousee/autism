@@ -13,6 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function tweetIQ() {
-    var text = `My proof `;
+    var text = `I'm collecting my animals for @ZooAvax 🥚🐕`;
     window.open("https://twitter.com/intent/tweet?&text=\n" + text, "_blank");
 }
