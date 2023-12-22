@@ -7,12 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     Telegram.addEventListener('click', function() {
-        window.open("https://t.me/ZooAvax", + "_blank")
+        window.open("https://t.me/ZooSolana", + "_blank")
     });
 
 });
 
 function tweetIQ() {
-    var text = `I'm collecting my animals for @ZooAvax 🥚🐕`;
+    var text = `I'm collecting my $ZOO airdrop for @ZooSolana 🥚🐕🪂`;
     window.open("https://twitter.com/intent/tweet?&text=\n" + text, "_blank");
 }
