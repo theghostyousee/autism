@@ -13,6 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function tweetIQ() {
-    var text = `I'm collecting my $ZOO airdrop for @ZooSolana 🥚🐕🪂`;
+    var text = `I'm collecting my $ZOO airdrop for @ZooCoinSolana 🥚🐕🪂`;
     window.open("https://twitter.com/intent/tweet?&text=\n" + text, "_blank");
 }
