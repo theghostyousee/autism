@@ -17,6 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function tweetIQ(iqValue) {
-    var text = `Just scored a ${iqValue} on the @AutisticInuSol IQ test.😐`;
+    var text = `Just scored a ${iqValue} on the @AutismOnSolana IQ test 😐`;
     window.open("https://twitter.com/intent/tweet?&text=\n" + text, "_blank");
 }
