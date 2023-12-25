@@ -85,6 +85,20 @@ body {
     height: 80px; /* Adjust as needed */
 }
 
+.social{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 12%;
+    display: flex;
+}
+
+.social img{
+    width: 50px;
+    cursor: pointer;
+}
+
 @keyframes tiltAnimation {
     from {
         transform: rotate(-10deg);
