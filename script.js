@@ -1,23 +1,22 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const numberDisplay = document.getElementById('numberDisplay');
     const proofButton = document.getElementById('proofButton');
-    const Telegram = document.getElementById('tg');
-    const Ray = document.getElementById('ray');
+    let currentValue = 10; // starting number
 
-    proofButton.addEventListener('click', function() {
-        tweetIQ();
-    });
+    const rouletteEffect = setInterval(function() {
+        currentValue = Math.floor(Math.random() * (180 - 10 + 1)) + 10;
+        numberDisplay.textContent = currentValue;
+    }, 75);
 
-    Telegram.addEventListener('click', function() {
-        window.open("https://t.me/ZooSolana", + "_blank")
-    });
-
-    Ray.addEventListener('click', function() {
-        window.open("https://raydium.io/swap/?inputCurrency=sol&outputCurrency=4uE5gm2mVVLFMBsdiwPWJos2j5xxuvH3Yhqnu13XCsV5&inputAmount=0&fixed=in", + "_blank")
-    });
-
+    setTimeout(function() {
+        clearInterval(rouletteEffect);
+        proofButton.addEventListener('click', function() {
+            tweetIQ(currentValue);
+        });
+    }, 1000); // stops the effect after 2 seconds
 });
 
-function tweetIQ() {
-    var text = `I'm collecting my $ZOO airdrop for @ZooCoinSolana 🥚🐕🪂`;
+function tweetIQ(iqValue) {
+    var text = `Just scored a ${iqValue} on the @AutisticInuSol IQ test.😐`;
     window.open("https://twitter.com/intent/tweet?&text=\n" + text, "_blank");
 }
